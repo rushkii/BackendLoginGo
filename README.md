@@ -26,6 +26,8 @@ A simple example backend web for account register, login, logout, and get the ac
     </ul>
     <li>After login, you can see the account you just created with
     <br><b>GET</b> <code>http://127.0.0.1:5000/me</code> without fill any body field, because it use cookie headers.</li>
+    <li>If you want to clear or delete your cookie headers just logout with
+    <br><b>DELETE</b> <code>http://127.0.0.1:5000/logout</code> wihtout fill any body field</li>
 </ul>
 <br>
 
