@@ -8,8 +8,12 @@ import (
 )
 
 func LogoutUsers(c *fiber.Ctx) error {
+	if c.Cookies("ses") == "" {
+		return c.JSON(models.ToJSON(200, "Already logout", nil))
+	}
+
 	c.Cookie(&fiber.Cookie{
-		Name:     "jwt",
+		Name:     "ses",
 		Value:    "",
 		Expires:  time.Now().Add(-time.Hour),
 		HTTPOnly: true,

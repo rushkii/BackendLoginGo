@@ -22,5 +22,6 @@ func Use(app *fiber.App) {
 
 	app.Post("/register", h.RegisterUsers)
 	app.Post("/login", h.LoginUsers)
+	app.Delete("/logout", h.LogoutUsers)
 	app.Get("/me", h.GetMe)
 }
