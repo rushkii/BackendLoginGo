@@ -37,4 +37,4 @@ I kinda lazy to do it alone :( so I just creating this simple web backend for my
 <br>
 
 <h2 align="center">COPYRIGHT</h2>
-<p align="center"><b><a href="https://github.com/rushkii">Kiizuha</a></b> 2022</p>
+<p align="center"><b><a href="https://github.com/rushkii">Kiizuha</a></b> 2022 under the <a href="LICENSE">MIT License</a>.</p>
