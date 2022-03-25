@@ -14,18 +14,18 @@ A simple example backend web for account creation, login, logout, and get the ac
 
 ### Usage
 <ul>
-    <li>Go to postman and register with POST <code>http://127.0.0.1:5000/register</code></li>
+    <li>Go to postman and register with <b>POST</b> <code>http://127.0.0.1:5000/register</code></li>
     <ul>
-        <li>Don't forget fill your _username_, email, name, password in the body field</li>
+        <li>Don't forget fill your <u>username</u>, <u>email</u>, <u>name</u>, <u>password</u> in the body field</li>
         <li>Once done click <b>Send</b> buton</li>
     </ul>
-    <li>Then, login to store your cookie headers with POST <code>http://127.0.0.1:5000/login</code></li>
+    <li>Then, login to store your cookie headers with <b>POST</b> <code>http://127.0.0.1:5000/login</code></li>
     <ul>
-        <li>Don't forget fill with username or email and password in the body field
+        <li>Don't forget fill with <u>username</u> or <u>email</u> and <u>password</u> in the body field
         <li>Once done click <b>Send</b> buton</li>
     </ul>
     <li>After login, you can see the account you just created with
-    <br>GET <code>http://127.0.0.1:5000/me</code> without fill any body field, because it use cookie headers.</li>
+    <br><b>GET</b> <code>http://127.0.0.1:5000/me</code> without fill any body field, because it use cookie headers.</li>
 </ul>
 <br>
 
