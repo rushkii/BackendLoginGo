@@ -5,14 +5,14 @@ A simple example backend web for account creation, login, logout, and get the ac
 
 <br>
 
-## Tutorial
+### Tutorial
 - Open your terminal/cmd and type `git clone https://github.com/rushkii/BackendLoginGo.git`
 - Then `cd BackendLoginGo` and change your database DSN in `config.env`
 - Once setup complete, run the program `go run server.go`
 
 <br>
 
-## Usage
+### Usage
 <ul>
     <li>Go to postman and register with POST <code>http://127.0.0.1:5000/register</code></li>
     <ul>
@@ -27,6 +27,11 @@ A simple example backend web for account creation, login, logout, and get the ac
     <li>After login, you can see the account you just created with
     <br>GET <code>http://127.0.0.1:5000/me</code> without fill any body field, because it use cookie headers.</li>
 </ul>
+<br>
+
+### Inpirations
+I was have an idea to create like an e-commerce web named **dijokiin.id** but,<br>
+I kinda lazy to do it alone :( so I just creating this simple web backend for my portfolio.
 
 <br>
 <br>
