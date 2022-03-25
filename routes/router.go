@@ -10,7 +10,7 @@ import (
 
 func Use(app *fiber.App) {
 	app.Use(logger.New(logger.Config{
-		Format:     "[${time}] - [${ip}:${port}] -> ${status} | ${method} | ${path}\n",
+		Format:     "${time} ${ip}:${port} -> ${status} | ${method} | ${path}\n",
 		TimeFormat: "Jan, 02 2006 15:04:05",
 		TimeZone:   "Asia/Jakarta",
 	}))
