@@ -32,4 +32,4 @@ A simple example backend web for account creation, login, logout, and get the ac
 <br>
 
 <h2 align="center">COPYRIGHT</h2>
-<p align="center"><b><a href="github.com/rushkii">Kiizuha</a></b> 2022</p>
+<p align="center"><b><a href="https://github.com/rushkii">Kiizuha</a></b> 2022</p>
