@@ -1,16 +1,18 @@
-# BackendLoginGo
+<h1 align="center">BackendLoginGo</h1>
+<p align="center">
 A simple example backend web for account creation, login, logout, and get the account info using Go language.
+</p>
 
 <br>
 
-## Tutorial
+<h2 align="center">Tutorial</h2>
 - Open your terminal/cmd and type `git clone https://github.com/rushkii/BackendLoginGo.git`
 - Then `cd BackendLoginGo` and change your database DSN in `config.env`
 - Once setup complete, run the program `go run server.go`
 
 <br>
 
-## Usage
+<h2 align="center">Usage</h2>
 <ul>
     <li>Go to postman and register with POST <code>http://127.0.0.1:5000/register</code></li>
     <ul>
