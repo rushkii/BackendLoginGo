@@ -1,6 +1,6 @@
 <h1 align="center">BackendLoginGo</h1>
 <p align="center">
-A simple example backend web for account creation, login, logout, and get the account info using Go language.
+A simple example backend web for account register, login, logout, and get the account info using Go language.
 </p>
 
 <br>
@@ -29,7 +29,7 @@ A simple example backend web for account creation, login, logout, and get the ac
 </ul>
 <br>
 
-### Inpirations
+### Inspirations
 I was have an idea to create like an e-commerce web named **dijokiin.id** but,<br>
 I kinda lazy to do it alone :( so I just creating this simple web backend for my portfolio.
 
